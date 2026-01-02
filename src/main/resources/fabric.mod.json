@@ -9,8 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/just-enough-keybinds",
-		"sources": "https://github.com/Snow-s-mods/Just-Enough-Keybinds",
-		"issues": "https://github.com/Snow-s-mods/Just-Enough-Keybinds/issues"
+		"sources": "https://github.com/Snows-mods/Just-Enough-Keybinds",
+		"issues": "https://github.com/Snows-mods/Just-Enough-Keybinds/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/just-enough-keybinds/icon.png",
