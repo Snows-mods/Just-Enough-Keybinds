@@ -1,30 +1,30 @@
 {
 	"schemaVersion": 1,
-	"id": "not-enough-keybinds",
+	"id": "just-enough-keybinds",
 	"version": "${version}",
-	"name": "NotEnoughKeybinds",
+	"name": "Just Enough Keybinds",
 	"description": "Adds a lots of (un)necessary keybinds and a keybinding preset system.",
 	"authors": [
 		"Sn0wix_"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/mod/not-enough-keybinds",
-		"sources": "https://github.com/Sn0wix/Not-Enough-Keybinds",
-		"issues": "https://github.com/Sn0wix/Not-Enough-Keybinds/issues"
+		"homepage": "https://modrinth.com/mod/just-enough-keybinds",
+		"sources": "https://github.com/Snow-s-mods/Just-Enough-Keybinds",
+		"issues": "https://github.com/Snow-s-mods/Just-Enough-Keybinds/issues"
 	},
 	"license": "MIT",
-	"icon": "assets/not-enough-keybinds/icon.png",
+	"icon": "assets/just-enough-keybinds/icon.png",
 	"environment": "client",
 	"entrypoints": {
-		"client": [
-			"net.sn0wix_.notEnoughKeybinds.NotEnoughKeybinds"
-		],
+      "client": [
+        "net.sn0wix_.justEnoughKeybinds.JustEnoughKeybinds"
+      ],
 		"modmenu": [
-			"net.sn0wix_.notEnoughKeybinds.compat.ModMenu"
+			"net.sn0wix_.justEnoughKeybinds.compat.ModMenu"
 		]
 	},
 	"mixins": [
-		"not-enough-keybinds.mixins.json"
+      "just-enough-keybinds.mixins.json"
 	],
 	"depends": {
 		"fabricloader": "*",
@@ -39,8 +39,8 @@
 	"custom": {
 		"modmenu": {
 			"links": {
-				"link.not-enough-keybinds.curseforge": "https://curseforge.com/minecraft/mc-mods/not-enough-keybinds",
-				"link.not-enough-keybinds.modrinth": "https://modrinth.com/mod/not-enough-keybinds"
+				"link.just-enough-keybinds.curseforge": "https://curseforge.com/minecraft/mc-mods/just-enough-keybinds",
+				"link.just-enough-keybinds.modrinth": "https://modrinth.com/mod/just-enough-keybinds"
 			},
 			"update_checker": true
 		}
